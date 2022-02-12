@@ -1,0 +1,38 @@
+.portfolio {
+
+   &__title {
+      margin: 150px 0 0 0  ;
+   }
+}
+.submenu {
+   position: relative;
+   text-align: center;
+   margin:50px 0;
+   &__link {
+      color: #3c3c3c;
+      font-weight: 700;
+      padding: 0 30px;
+      &_active {
+         color: red;
+      }
+   }
+}
+.columns {
+   &_row {
+      display: flex;
+      flex-wrap: wrap;
+   }
+
+   &_colum {
+      flex: 0 0 48%;
+      height: 350px;
+      margin: 10px;
+      }
+}
+.footer {
+
+   &__button {
+      margin: 55px 0 40px 41%;
+      background: url('/img/conteiner/b2.png') 40px no-repeat;
+   }
+}
