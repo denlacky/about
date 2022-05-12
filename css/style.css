@@ -326,4 +326,5 @@ h6 {
 .body {
   font-family: Lato;
   max-width: 1920px;
+  min-width: none;
 }
